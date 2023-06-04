@@ -1,1 +1,1 @@
-# BeautySpy.com
+# Capstone_project-BeautySpy.com
