@@ -2,10 +2,10 @@ import React from 'react';
 import './login.css';
 import { useState } from 'react';
 function Login() {
-    const [username, setUsername] = useState("");
+    const [userName, setUsername] = useState("");
     const [loginPassword, setLoginPassword] = useState("");
     function buttonClick(){
-        if(username!=="" || loginPassword!==""){
+        if(userName!=="" || loginPassword!==""){
              
         }
     }
