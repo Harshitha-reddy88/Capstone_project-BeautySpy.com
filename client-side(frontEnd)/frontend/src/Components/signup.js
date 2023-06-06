@@ -3,7 +3,7 @@ import './signup.css';
 import { useState } from 'react';
 function Signup() {
     const [first, setFirst] = useState("");
-    const [last, setLast] = useState("");
+    const [user, setUser] = useState("");
     const [password, setPassword] = useState("");
     const [phone, setPhone] = useState("");
     const [email, setEmail] = useState("");
@@ -16,13 +16,19 @@ function Signup() {
         // if(first=="" || last=="" || password=="" || phone=="" || email==""){
         //     alert("please fill the details")
         // }
-        if (first !== "" && last !== "" || password !== "" || phone !== "" || email !== "") {
+        if (first !== "" && user !== "" && password !== "" && phone !== "" && email !== "") {
 
             let signupdetails = JSON.parse(localStorage.getItem("signup")) || [];
-            localStorage.setItem("signup", JSON.stringify([...signupdetails, { first, last, password, phone, email }]));
+            for(let i=0;i<signupdetails.length;i++){
+
+                if(signupdetails[i].user==user && signupdetails[i].password==password){
+                    alert("alredy have an account please login")
+                }
+            }
+            localStorage.setItem("signup", JSON.stringify([...signupdetails, { first, user, password, phone, email }]));
         }
         else {
-            alert("fill")
+            alert("enter your details")
         }
     }
     return (
@@ -36,7 +42,7 @@ function Signup() {
                 <input type="text" className="inputtag first" onChange={e => setFirst(e.target.value)} placeholder="first name" />
 
                 <h2 className="heading1">User Name :</h2>
-                <input type="text" className="inputtag last" onChange={e => setLast(e.target.value)} placeholder="last name" />
+                <input type="text" className="inputtag user" onChange={e => setUser(e.target.value)} placeholder="last name" />
 
                 <h2 className="heading2">Password :</h2>
                 <input type="password" className="inputtag password" onChange={e => setPassword(e.target.value)} placeholder="password" />
@@ -53,16 +59,16 @@ function Signup() {
 
                 <div className="logoimages">
                     <div className="googlediv">
-                        <img className="google" src="google.jpeg" />
+                        <a href="https://www.google.co.in/webhp"><img className="google" src="google.jpeg" /></a>
                     </div>
                     <div className="facebookdiv">
-                        <img className="facebook" src="facebook.jpeg" />
+                        <a href="https://www.facebook.com/"><img className="facebook" src="facebook.jpeg" /></a>
                     </div>
                     <div className="maildiv">
-                        <img className="mail" src="email.jpeg" />
+                        <a href=""><img className="mail" src="email.jpeg" /></a>
                     </div>
                     <div className="twiterdiv">
-                        <img className="twiter" src="twiter.jpeg" />
+                        <a href="https://twitter.com/?lang=en-in"><img className="twiter" src="twiter.jpeg" /></a>
                     </div>
                 </div>
 

@@ -5,9 +5,22 @@ function Login() {
     const [userName, setUsername] = useState("");
     const [loginPassword, setLoginPassword] = useState("");
     function buttonClick(){
-        if(userName!=="" || loginPassword!==""){
-             
+        if(userName=="" || loginPassword==""){
+             alert("fill your login details")
         }
+        else{
+            let login=JSON.parse(localStorage.getItem("signup"))||[];
+            for(let i=0;i<login.length;i++){
+                if(login[i].user==userName && login[i].password==loginPassword){
+                    alert("login successfull")
+                    localStorage.setItem("Newdata",JSON.stringify(login[i]));
+                }
+                else{
+                    alert("user not exixt")
+                }
+            }
+        }
+
     }
     return (
         <div className="maindiv">
@@ -17,29 +30,37 @@ function Login() {
                 </div>
 
                 
-                <h2 className="heading1">User Name :</h2>
+                <h2 className="username">User Name :</h2>
                 <input type="text" className="inputtag username" onChange={e => setUsername(e.target.value)} placeholder="last name" />
 
-                <h2 className="heading2">Password :</h2>
+                <h2 className="password">Password :</h2>
                 <input type="password" className="inputtag loginPassword" onChange={e => setLoginPassword(e.target.value)} placeholder="password" />
 
                 <div>
                     <button className="button" onClick={buttonClick}>Login</button>
                 </div>
-                <h4>Don't have an account ? Signup</h4>
+
+                <div className="textDiv">
+                   <div className="forgot">
+                       <h4>forgot password</h4>
+                   </div>
+                   <div className="account">
+                       <h4>Don't have an account ?<br></br> Signup</h4>
+                   </div>
+                </div>
 
                 <div className="logoimages">
                     <div className="googlediv">
-                        <img className="google" src="google.jpeg" />
+                    <a href="https://www.google.co.in/webhp"><img className="google" src="google.jpeg" /></a>
                     </div>
                     <div className="facebookdiv">
-                        <img className="facebook" src="facebook.jpeg" />
+                    <a href="https://www.facebook.com/"><img className="facebook" src="facebook.jpeg" /></a>
                     </div>
                     <div className="maildiv">
                         <img className="mail" src="email.jpeg" />
                     </div>
                     <div className="twiterdiv">
-                        <img className="twiter" src="twiter.jpeg" />
+                    <a href="https://twitter.com/?lang=en-in"><img className="twiter" src="twiter.jpeg" /></a>
                     </div>
                 </div>
 
