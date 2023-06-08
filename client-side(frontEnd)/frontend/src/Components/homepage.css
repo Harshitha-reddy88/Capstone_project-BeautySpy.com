@@ -1,0 +1,71 @@
+.logo{
+    width: 130px;
+    margin-left: 30px;
+}
+.navbar{
+    display: flex;
+}
+.women{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.men{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.kids{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.skin{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.dress{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.search{
+    padding:5px 50px 5px 20px;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 25px;
+}
+.accountdiv{
+    display: flex;
+    margin-left:150px;
+    margin-top: 5px;
+}
+.wishlistdiv{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.contact{
+    width: 25px;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+.details{
+    display:flex;
+}
+.wish{
+    width: 30px;
+    margin-top: 15px;
+    margin-right: 8px;
+}
+.cart{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.cartimage{
+    width:23px;
+    margin-top: 20px;
+}
+.derails{
+    display: flex;
+}
+.navbar{
+    display: flex;
+}
