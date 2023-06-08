@@ -8,14 +8,6 @@ function Signup() {
     const [phone, setPhone] = useState("");
     const [email, setEmail] = useState("");
     function buttonClick() {
-        // let project=[{"FirstName":first},
-        //                {"LastName":last},
-        //                {"Password":password},
-        //                {"Phone":phone},
-        //                {"Email":email}]
-        // if(first=="" || last=="" || password=="" || phone=="" || email==""){
-        //     alert("please fill the details")
-        // }
         if (first !== "" && user !== "" && password !== "" && phone !== "" && email !== "") {
 
             let signupdetails = JSON.parse(localStorage.getItem("signup")) || [];
