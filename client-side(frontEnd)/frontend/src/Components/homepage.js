@@ -142,19 +142,30 @@ function Homepage(){
 
                 <div className="last">
                     <div className="frackdiv">
-                        <img  calssNmae="frack" src="frack.jpeg" alt="error"/>
+                        <img  className="frack Hover" src="kidsfrack.jpg" alt="error"/>
                     </div>
                     <div className="necklacediv">
-                        <img calssNmae="necklace"  src="necklace.jpg" alt="error"/>
+                        <img className="necklace Hover"  src="necklace.jpg" alt="error"/>
                     </div>
                     <div className="snikerdiv">
-                        <img calssNmae="sniker" src="snikers.jpeg" alt="error"/>
+                        <img className="sniker Hover" src="snikers.jpeg" alt="error"/>
                     </div>
                     <div className="watchdiv">
-                        <img calssNmae="watch" src="watches.jpeg" alt="error"/>
+                        <img className="watch Hover" src="watches.jpeg" alt="error"/>
                     </div>
                 </div>
 
+            </div>
+
+            <div className="skinheading">
+                <div>
+                    <h4>choose the outfits for your</h4>
+                    <h2 className="skintone">Skintone</h2>
+                </div>
+            </div>
+
+            <div>
+                
             </div>
 
         </div>

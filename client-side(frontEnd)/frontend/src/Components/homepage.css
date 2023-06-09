@@ -250,6 +250,7 @@
 .div:hover{
     color: deeppink;
     font-size: 25px;
+    cursor: pointer;
 }
 .Hover:hover{
     width:210px
@@ -304,5 +305,55 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .frack{
-    width: 800px;
+    width:200px;
+    border-radius: 10px;
+}
+.necklace{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.sniker{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.watch{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.last{
+    display: flex;
+    margin-top: 50px;
+}
+.frackdiv{
+    padding: 55px 54px 55px 54px;
+    margin-left: 198px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.necklacediv{
+    padding: 50px 50px 50px 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.snikerdiv{
+    padding: 50px 50px 50px 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.watchdiv{
+    padding: 50px 50px 50px 50px;
+    margin-left: 55px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.skinheading{
+    margin-top: 100px;
+}
+.skintone{
+    margin-top: -10px;
 }
