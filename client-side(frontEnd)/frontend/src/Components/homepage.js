@@ -1,5 +1,5 @@
 import React from 'react';
-import './homepage.css'
+import './homepage.css';
 function Homepage(){
     return(
         <div className="maindiv">
@@ -21,9 +21,6 @@ function Homepage(){
                     </div>
                     <div className="skin">
                         <h3 className="Skintone">Skintone</h3>
-                    </div>
-                    <div className="dress">
-                        <h3 className="Dress">Dress Color</h3>
                     </div>
                     <div>
                         <input  className="search" type="text" placeholder="search"/>
@@ -104,6 +101,8 @@ function Homepage(){
                 </div>
             </div>
 
+            <h2 className="differentOutfits">Different Outfits</h2>
+
             <div className="imagediv">
 
                 <div className="imagesdiv">
@@ -164,8 +163,158 @@ function Homepage(){
                 </div>
             </div>
 
-            <div>
-                
+            <div className="skintones">
+
+                <div className="alabaster boxradius">
+                   <img className="unique" src="alabaster.png" alt='error'/> 
+                   <h3>Alabaster</h3>
+                </div>
+
+                <div className="skintone2 boxradius">
+                   <img className="unique" src="skintone2.png" alt='error' /> 
+                   <h3>Pale</h3>
+                </div>
+
+                <div className="skintone3 boxradius">
+                   <img className="unique" src="skintone3.png" alt='error'/> 
+                   <h3>Rosy-Pale</h3>
+                </div>
+
+                <div className="skintone4 boxradius">
+                   <img className="unique" src="skintone4.png" alt='error'/> 
+                   <h3>light</h3>
+                </div>
+
+                <div className="skintone5 boxradius">
+                   <img className="unique" src="skintone5.png" alt='error'/> 
+                   <h3>Carotenoid</h3>
+                </div>
+
+                <div className="skintone6 boxradius">
+                   <img className="unique" src="skintone6.png" alt='error' /> 
+                   <h3>Tan</h3>
+                </div>
+
+                <div className="skintone7 boxradius">
+                   <img className="unique" src="skintone7.png"  alt='error'/> 
+                   <h3>Espresso Brown</h3>
+                </div>
+
+                <div className="beige boxradius">
+                   <img className="unique" src="beige.png" alt='error'/> 
+                   <h3>Beige</h3>
+                </div>
+
+            </div>
+
+           <h2 className='cosmet'>Cosmetics</h2>
+
+            <div className='cosmeticsdiv'>
+                  <div className='cosmetic makup1'>
+                    <img className="makup" src="cosmetics.jpeg" alt='error'/>
+                  </div>
+                  <div className='cosmetic makup2'>
+                    <img className="makup" src="kajal.jpeg" alt='error'/>
+                  </div>
+                  <div className='cosmetic makup2'>
+                    <img className="makup" src="makeuproducts.jpeg" alt='error'/>
+                  </div>
+
+                   <div className='cosmetic makup2'>
+                       <img className="makup" src="lipstick.jpeg" alt='error'/>
+                   </div>
+            </div>
+
+            <div className='cosmeticsdiv1'>
+                <div className='cosmetics makup2'>
+                    <img className="makup makupleft" src="makeupwomen.jpg" alt="error"/>
+                </div>
+                <div className='cosmetic makup2'>
+                    <img className="makup" src="makeupbrush.jpeg" alt="error"/>
+                </div>
+                <div className='cosmetic makup2'>
+                    <img className="makup" src="womenlipstick.webp" alt="error"/>
+                </div>
+            </div>
+
+            <div className='cosmeticsdiv'>
+                  <div className='cosmetic makup1'>
+                    <img className="makup" src="mac.jpeg" alt='error'/>
+                  </div>
+                  <div className='cosmetic makup2'>
+                    <img className="makup" src="blusher.jpg" alt='error'/>
+                  </div>
+                  <div className='cosmetic makup2'>
+                    <img className="makup" src="liquidblush.jpg" alt='error'/>
+                  </div>
+
+                   <div className='cosmetic makup2'>
+                       <img className="makup" src="liquidmakeup.jpeg" alt='error'/>
+                   </div>
+            </div>
+
+            <div className='footer'>
+                <div className='who'>
+                    <h3 className='pinkcolor'>Who are we ?</h3>
+                    <p className='pinkcolor'>About us</p>
+                </div>
+                <div  className='womenFooter'>
+                    <h4 className='pinkcolor'>Women</h4>
+                    <p className='pinkcolor'>Traditional</p>
+                    <p className='pinkcolor'>Western</p>
+                    <p className='pinkcolor'>Bags</p>
+                    <p className='pinkcolor'>Foot wear</p>
+                    <p className='pinkcolor'>Jewellery</p>
+                    <p className='pinkcolor'>Watches</p>
+                    <p className='pinkcolor'>Accessories</p>
+                </div>
+                <div className='menFooter'>
+                    <h4 className='pinkcolor'>Men</h4>
+                    <p className='pinkcolor'>Traditional</p>
+                    <p className='pinkcolor'>Western</p>
+                    <p className='pinkcolor'>Foot wear</p>
+                    <p className='pinkcolor'>Watches</p>
+                    <p className='pinkcolor'>Accessories</p>
+                </div>
+                <div className='kidsFooter'>
+                    <h4 className='pinkcolor'>Kids</h4>
+                    <p className='pinkcolor'>Traditional</p>
+                    <p className='pinkcolor'>Western</p>
+                    <p className='pinkcolor'>Foot wear</p>
+                    <p className='pinkcolor'>Jewellery</p>
+                    <p className='pinkcolor'>Accessories</p>
+                </div>
+                <div className='skintoneFooter'>
+                    <h4 className='pinkcolor'>Skintone</h4>
+                    <p className='pinkcolor'>Alabaster</p>
+                    <p className='pinkcolor'>Beige</p>
+                    <p className='pinkcolor'>Carotenoid</p>
+                    <p className='pinkcolor'>Tan</p>
+                    <p className='pinkcolor'>light</p>
+                    <p className='pinkcolor'>Pale</p>
+                </div>
+
+                <div>
+                   <h4 className='followus pinkcolor'>Follow us</h4>
+
+                   <div className='footers'>
+
+                     <div>
+                      <img className="footerimages footergap1" src="footerinsta.jpg" alt="error" />
+                     </div>
+
+                     <div>
+                      <img className="footerimages footergap" src="footerTwitter.png" alt="error" />
+                     </div>
+
+                     <div>
+                      <img className="footerimages footergap" src="footerfacebook.png" alt="error" />
+                     </div>
+
+                   </div>
+
+                </div>
+
             </div>
 
         </div>

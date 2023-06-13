@@ -10,6 +10,7 @@
     display: flex;
     height:85px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    /* position:fixed; */
 }
 .women{
     margin-top: 10px;
@@ -80,6 +81,7 @@
 }
 .details{
     display:flex;
+    /* position: fixed; */
 }
 .wish{
     width: 30px;
@@ -357,3 +359,116 @@
 .skintone{
     margin-top: -10px;
 }
+.skintone:hover{
+    color: deeppink;
+    cursor: pointer;
+}
+.skintones{
+    display: flex;
+}
+.unique{
+    width: 150px;
+    border-radius: 100px;
+}
+.unique:hover{
+    width: 155px;
+}
+.boxradius{
+    margin-left: 50px;
+}
+.skintones{
+    margin-left: 90px;
+}
+.differentOutfits{
+    margin-top: 90px;
+}
+.differentOutfits:hover{
+    color: deeppink;
+    cursor: pointer;
+}
+.makup{
+    width: 195px;
+    height: 280px;
+    border-radius: 10px;
+}
+.makup:hover{
+    width: 200px;
+}
+.cosmeticsdiv{
+    display: flex;
+    margin-top: 50px;
+}
+.makup1{
+    margin-left: 220px;
+    padding: 50px 58px 50px 58px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.makup2{
+    padding: 50px 58px 50px 58px;
+    margin-left: 52px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.cosmet{
+    margin-top: 150px;
+}
+.cosmet:hover{
+    color:deeppink;
+    cursor: pointer;
+}
+.cosmeticsdiv1{
+    display: flex;
+    margin-top: 50px;
+}
+.cosmetics{
+    margin-left: 400px;
+}
+.footer{
+    background-color:#e5e5e5;
+    display: flex;
+    margin-top: 100px;
+}
+.who{
+    margin-left: 200px;
+    margin-top:50px;
+}
+.womenFooter{
+    margin-left: 150px;
+    margin-top:50px;
+}
+.menFooter{
+    margin-left: 150px;
+    margin-top:50px;
+}
+.kidsFooter{
+    margin-left: 150px;
+    margin-top:50px;
+}
+.skintoneFooter{
+    margin-left: 150px;
+    margin-top:50px;
+}
+.footerimages{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.footers{
+    display: flex;
+}
+.footergap{
+    margin-left: 50px;
+}
+.footergap1{
+    margin-left: 200px;
+}
+.followus{
+    margin-top: 130px;
+    margin-left: 190px;
+}
+.pinkcolor:hover{
+    color:deeppink
+}
+
+
