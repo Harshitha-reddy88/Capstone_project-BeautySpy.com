@@ -1,0 +1,474 @@
+.logo{
+    width: 120px;
+    margin-left: 30px;
+    border-radius: 200px;
+}
+.logo:hover{
+    width:110px;
+}
+.navbar{
+    display: flex;
+    height:85px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    /* position:fixed; */
+}
+.women{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.Women:hover{
+    color: deeppink;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Men:hover{
+    color: deeppink;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Kids:hover{
+    color: deeppink;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Skintone:hover{
+    color: deeppink;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Dress:hover{
+    color: deeppink;
+    font-size: 20px;
+    cursor: pointer;
+}
+.men{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.kids{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.skin{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.dress{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.search{
+    padding:5px 50px 5px 20px;
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 25px;
+    border: 1px solid deeppink;
+}
+.accountdiv{
+    display: flex;
+    margin-left:150px;
+    margin-top: 5px;
+}
+.wishlistdiv{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.contact{
+    width: 25px;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+.details{
+    display:flex;
+    /* position: fixed; */
+}
+.wish{
+    width: 30px;
+    margin-top: 15px;
+    margin-right: 8px;
+}
+.cart{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.cartimage{
+    width:23px;
+    margin-top: 20px;
+}
+.derails{
+    display: flex;
+}
+.navbar{
+    display: flex;
+}
+.slide{
+    width:1650px;
+    height: 580px;
+    margin-top: 20px;
+}
+.account:hover{
+    color: deeppink;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Wishlist:hover{
+    color: deeppink;
+    font-size: 20px;
+    cursor: pointer;
+}
+.womenwear{
+    width: 200px;
+    border-radius: 100px;
+}
+.menwear{
+    width: 201px;
+    border-radius: 100px;
+}
+.footwear{
+    border-radius: 100px;
+    width: 203px;
+    height: 203px;
+}
+.kidswear{
+    width: 195px;
+    border-radius: 100px;
+}
+.newarrivals{
+    width: 200px;
+    border-radius: 500px;
+}
+.traditional{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.images{
+    display: flex;
+}
+.womendiv{
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.mendiv{
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.kidsdiv{
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.footweardiv{
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.newarrivalsdiv{
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.traditionaldiv{
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.accessoriesdiv{
+   
+    margin-top: 10px;
+    width: 200px;
+    padding:1px 680px 30px 690px;
+    margin-left: 140px;
+}
+.chain{
+    width: 350px;
+    height:480px;
+}
+.bangle{
+    width: 350px;
+    height:480px;
+}
+.longChain{
+    width: 350px;
+    height:480px;
+}
+.jewellery{
+    width: 350px;
+    height:480px;
+}
+.mindiv{
+    display: flex;
+}
+.bride{
+    width: 200px;
+    border-radius: 10px;
+}
+.suite{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.Dresses{
+    width: 200px;
+    margin-right: 30px;
+    height: 250px;
+    border-radius: 10px;
+}
+.western{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.imagesdiv{
+    display: flex;
+}
+.imagediv{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.bridediv{
+    margin-left: 50px;
+    padding: 40px 50px 40px 50px;
+    margin-left: 200px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.suitediv{
+    margin-left: 50px;
+    padding: 40px 50px 40px 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.Dressesdiv{
+    margin-left: 50px;
+    padding: 40px 20px 40px 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.westerndiv{
+    margin-left: 50px;
+    padding: 40px 50px 40px 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.div:hover{
+    color: deeppink;
+    font-size: 25px;
+    cursor: pointer;
+}
+.Hover:hover{
+    width:210px
+}
+.bangles{
+    width: 220px;
+    height: 290px;
+    border-radius: 10px;
+}
+.earRing{
+    width: 200px;
+    height: 290px;
+    border-radius: 10px;
+}
+.bag{
+    width: 220px;
+    height: 280px;
+    border-radius: 10px;
+}
+.ring{
+    width: 200px;
+    height: 280px;
+    border-radius: 10px;
+}
+.accessories{
+    display: flex;
+    margin-top: 50px;
+}
+.banglediv{
+    padding: 30px 48px 30px 30px;
+    margin-left: 205px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+.earRingdiv{
+    padding: 40px 48px 30px 55px;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.bagdiv{
+    padding: 20px 30px 20px 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.ringdiv{
+    padding: 45px 50px 20px 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.frack{
+    width:200px;
+    border-radius: 10px;
+}
+.necklace{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.sniker{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.watch{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+}
+.last{
+    display: flex;
+    margin-top: 50px;
+}
+.frackdiv{
+    padding: 55px 54px 55px 54px;
+    margin-left: 198px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.necklacediv{
+    padding: 50px 50px 50px 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.snikerdiv{
+    padding: 50px 50px 50px 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.watchdiv{
+    padding: 50px 50px 50px 50px;
+    margin-left: 55px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.skinheading{
+    margin-top: 100px;
+}
+.skintone{
+    margin-top: -10px;
+}
+.skintone:hover{
+    color: deeppink;
+    cursor: pointer;
+}
+.skintones{
+    display: flex;
+}
+.unique{
+    width: 150px;
+    border-radius: 100px;
+}
+.unique:hover{
+    width: 155px;
+}
+.boxradius{
+    margin-left: 50px;
+}
+.skintones{
+    margin-left: 90px;
+}
+.differentOutfits{
+    margin-top: 90px;
+}
+.differentOutfits:hover{
+    color: deeppink;
+    cursor: pointer;
+}
+.makup{
+    width: 195px;
+    height: 280px;
+    border-radius: 10px;
+}
+.makup:hover{
+    width: 200px;
+}
+.cosmeticsdiv{
+    display: flex;
+    margin-top: 50px;
+}
+.makup1{
+    margin-left: 220px;
+    padding: 50px 58px 50px 58px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.makup2{
+    padding: 50px 58px 50px 58px;
+    margin-left: 52px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.cosmet{
+    margin-top: 150px;
+}
+.cosmet:hover{
+    color:deeppink;
+    cursor: pointer;
+}
+.cosmeticsdiv1{
+    display: flex;
+    margin-top: 50px;
+}
+.cosmetics{
+    margin-left: 400px;
+}
+.footer{
+    background-color:#e5e5e5;
+    display: flex;
+    margin-top: 100px;
+}
+.who{
+    margin-left: 200px;
+    margin-top:50px;
+}
+.womenFooter{
+    margin-left: 150px;
+    margin-top:50px;
+}
+.menFooter{
+    margin-left: 150px;
+    margin-top:50px;
+}
+.kidsFooter{
+    margin-left: 150px;
+    margin-top:50px;
+}
+.skintoneFooter{
+    margin-left: 150px;
+    margin-top:50px;
+}
+.footerimages{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.footers{
+    display: flex;
+}
+.footergap{
+    margin-left: 50px;
+}
+.footergap1{
+    margin-left: 200px;
+}
+.followus{
+    margin-top: 130px;
+    margin-left: 190px;
+}
+.pinkcolor:hover{
+    color:deeppink
+}
+
+
