@@ -10,11 +10,10 @@
     display: flex;
     height:85px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-    /* position:fixed; */
 }
 .women{
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 80px;
 }
 .Women:hover{
     color: deeppink;
@@ -43,7 +42,7 @@
 }
 .men{
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 100px;
 }
 .kids{
     margin-top: 10px;
@@ -51,7 +50,7 @@
 }
 .skin{
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 70px;
 }
 .dress{
     margin-top: 10px;
@@ -81,7 +80,6 @@
 }
 .details{
     display:flex;
-    /* position: fixed; */
 }
 .wish{
     width: 30px;
@@ -148,7 +146,7 @@
     display: flex;
 }
 .womendiv{
-    margin-left: 90px;
+    margin-left: 250px;
     margin-top: 100px;
 }
 .mendiv{
@@ -470,5 +468,33 @@
 .pinkcolor:hover{
     color:deeppink
 }
-
-
+/* .slideshow{
+    background-image: url("makeupwomen.jpg");
+} */
+@keyframes image-animation {
+    0% { background-image: url('../../public/womenimg1.jpg'); }
+    33% { background-image: url('../../public/womenimg2.jpg'); }
+    66% { background-image: url('../../public/womenimg3.jpg'); }
+    100% { background-image: url('../../public/womenimg4.jpg'); }
+  }
+  
+  .image-animation {
+    width: 1600px;
+    height: 600px;
+    animation: image-animation 10s infinite;
+    margin:auto;
+    margin-top: 30px;
+  }
+  .marquee{
+    font-size: 200px;
+    margin-top: 70px;
+    margin-left: 400px;
+    color: deeppink;
+    opacity:0.8;
+  }
+  .marqueeimg{
+    width: 200px;
+    margin-left:300px;
+    border-radius: 200px;
+  }
+  

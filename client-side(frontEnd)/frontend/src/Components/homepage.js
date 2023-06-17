@@ -16,9 +16,6 @@ function Homepage(){
                     <div className="men">
                         <h3 className="Men">Men</h3>
                     </div>
-                    <div className="kids">
-                        <h3 className="Kids">Kids</h3>
-                    </div>
                     <div className="skin">
                         <h3 className="Skintone">Skintone</h3>
                     </div>
@@ -52,9 +49,23 @@ function Homepage(){
             </nav>
 
             <div>
-                <div>
-                    <img className="slide"src="slide.jpg" alt="error" />
+                {/* <div>
+                    <img className="slide"src="" alt="error" />
                 </div>
+                <marquee behavior="alternate" direction="left">
+                     <img src="indian.jpg" width="120" height="80" alt="Natural" />
+                     
+                </marquee> */}
+                <div className='image-animation'>
+                    <marquee  direction="down" className="marquee">
+                         welcome
+                         <div>
+                            <img  className="marqueeimg"src="beauty.jpg" alt="error" />
+                         </div>
+                    </marquee> 
+                </div>
+
+                
             </div>
             <div className="images">
 
@@ -69,13 +80,6 @@ function Homepage(){
                     <img  className="menwear" src="menwear.jpg" alt="error" />
                     <div>
                       <h2 className="div">Men</h2>
-                    </div>
-                </div>
-
-                <div className="kidsdiv">
-                    <img className="kidswear" src="kids.jpg" alt="error" />
-                    <div>
-                      <h2 className="div">Kids</h2>
                     </div>
                 </div>
 
